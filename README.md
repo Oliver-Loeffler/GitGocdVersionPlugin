@@ -1,4 +1,4 @@
-# GitGocdVersionPlugin
+# GitGocdVersionPlugin for Gradle
 
 When continuous delivery is used, it can be valuable to have reliable version numbers which include the _commit ID_ and a _build ID_ pointing to a certain status in source code history and build pipeline run.
 
