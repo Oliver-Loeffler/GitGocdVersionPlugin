@@ -35,9 +35,13 @@ Another point is, that when the GoCD environment `GO_PIPELINE_COUNTER` is not de
 
 # How does the Plugin work?
 
-Ideally:
+## Ideally:
 * just apply the plugin
-* to suppress publish operations, provide example
+* permit publish operations only for automated builds (running in a Gocd pipeline) 
+
+## Requirements so far:
+* Gradle 6.1.1
+* Git installed and working
     
 ## TODO:
 
@@ -46,7 +50,6 @@ Ideally:
 3. Create version like `tag`.`GO_PIPELINE_COUNTER` and define this as the given Gradle project version
 4. Provide a hook to suppress publishing of artifacts to remote repositories
 5. Make the `GO_PIPELINE_COUNTER` variable name configurable
-
 
 
 ## License
